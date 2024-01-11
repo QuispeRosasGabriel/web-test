@@ -1,0 +1,47 @@
+.progress-wrapper {
+  z-index: 10;
+  width: 133px;
+  height: 133px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100px;
+  border: 1px solid #fff;
+  box-shadow: 0px 8px 11px 3px rgb(0 0 0 / 13%);
+  color: #000;
+  font-family: Be Vietnam Pro;
+  font-size: 22.5px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+  letter-spacing: 0.45px;
+  bottom: 1rem;
+  position: fixed;
+
+  &__inside {
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: 1px solid #d2d8e8;
+  }
+
+  &__insideInterior {
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    border: 1px solid #d2d8e8;
+    color: #000;
+    font-family: Be Vietnam Pro;
+    font-size: 22.5px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%; 
+    letter-spacing: 0.45px;
+  }
+}

@@ -1,0 +1,27 @@
+.step1-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__title {
+    text-align: center;
+    & h2 {
+      font-family: Stevie Sans;
+      font-size: 32px;
+      font-style: normal;
+      color: #000;
+      font-weight: 550;
+    }
+  }
+
+  &__content {
+    color: #000;
+    text-align: center;
+    font-family: Stevie Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 119px;
+  }
+}

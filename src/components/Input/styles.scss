@@ -1,0 +1,15 @@
+.input {
+  border-radius: 10px;
+  background-color: #F2F2F2;
+  color: #000;
+  border: 1px solid transparent;
+  width: 100%;
+  padding: .8rem;
+  font-size: 18px;
+
+  &::focus {
+  //  border: 0.3px solid black;
+  border: 1px solid transparent;
+
+  }
+}
