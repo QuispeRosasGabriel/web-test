@@ -9,7 +9,7 @@ import { LocalStorageService } from "../../services";
 export const Home = () => {
   const [currentStep, setCurrentStep] = useState<number>(
     Number(LocalStorageService.getInstance().getItem<string>("lastSeenStep")) ??
-      2
+      0
   );
 
   const handleNextStep = (nextStep: number) => {
